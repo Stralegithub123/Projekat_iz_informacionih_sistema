@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Strahinja" created="October 30, 2024, 4:25:07&#x202f;PM CET" modified="October 30, 2024, 6:16:19&#x202f;PM CET" specVersion="9" urnVersion="1.27" nextGlobalID="981">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ucm.map="http:///ucm/map.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Strahinja" created="October 30, 2024, 4:25:07&#x202f;PM CET" modified="October 30, 2024, 6:52:05&#x202f;PM CET" specVersion="11" urnVersion="1.27" nextGlobalID="1058">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup5" id="5">
       <scenarios name="ScenarioDef6" id="6"/>
@@ -207,25 +207,36 @@
         <label deltaX="32" deltaY="-1"/>
         <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
       </nodes>
-      <nodes xsi:type="ucm.map:EndPoint" name="Obuka uspe&#x161;no obavljena" id="930" x="281" y="467" contRef="511" pred="//@urndef/@specDiagrams.0/@connections.77">
+      <nodes xsi:type="ucm.map:EndPoint" name="Obuka uspe&#x161;no obavljena" id="930" x="322" y="462" contRef="511" pred="//@urndef/@specDiagrams.0/@connections.77">
         <label/>
         <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef942" id="942" x="422" y="408" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.72" pred="//@urndef/@specDiagrams.0/@connections.71" respDef="941">
-        <label deltaX="119" deltaY="-26"/>
+        <label deltaX="114" deltaY="-15"/>
       </nodes>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef946" id="946" x="424" y="509" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.73" pred="//@urndef/@specDiagrams.0/@connections.72" respDef="945">
-        <label deltaX="58" deltaY="-10"/>
+        <label deltaX="55" deltaY="-13"/>
       </nodes>
       <nodes xsi:type="ucm.map:DirectionArrow" name="DirectionArrow965" id="965" x="1107" y="561" contRef="34" succ="//@urndef/@specDiagrams.0/@connections.74" pred="//@urndef/@specDiagrams.0/@connections.62"/>
       <nodes xsi:type="ucm.map:RespRef" name="RespRef969" id="969" x="364" y="742" contRef="451" succ="//@urndef/@specDiagrams.0/@connections.75" pred="//@urndef/@specDiagrams.0/@connections.73" respDef="968">
         <label deltaX="42" deltaY="-35"/>
       </nodes>
-      <nodes xsi:type="ucm.map:RespRef" name="RespRef973" id="973" x="271" y="586" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.76" pred="//@urndef/@specDiagrams.0/@connections.75" respDef="972">
-        <label deltaX="-71" deltaY="-19"/>
+      <nodes xsi:type="ucm.map:RespRef" name="RespRef973" id="973" x="274" y="601" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.76" pred="//@urndef/@specDiagrams.0/@connections.75" respDef="972">
+        <label deltaX="-71"/>
       </nodes>
       <nodes xsi:type="ucm.map:Stub" name="Odrada obuke" id="980" x="293" y="524" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.77" pred="//@urndef/@specDiagrams.0/@connections.76">
         <label deltaX="-45" deltaY="-37"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:StartPoint" name="Isplata zaposlenih" id="1043" x="406" y="112" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.78">
+        <label deltaX="21" deltaY="1"/>
+        <precondition deltaX="40" deltaY="-17" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:EndPoint" name="EndPoint1045" id="1045" x="128" y="126" contRef="511" pred="//@urndef/@specDiagrams.0/@connections.79">
+        <label deltaX="10" deltaY="9"/>
+        <postcondition deltaX="-40" deltaY="-20" label="" expression="true"/>
+      </nodes>
+      <nodes xsi:type="ucm.map:Stub" name="Ra&#x10d;unanje plate radnika" id="1057" x="255" y="129" contRef="511" succ="//@urndef/@specDiagrams.0/@connections.79" pred="//@urndef/@specDiagrams.0/@connections.78">
+        <label/>
       </nodes>
       <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef12" id="12" x="1033" y="40" width="383" height="379" contDef="11" nodes="293 313 334 338 347 367 375 377 381 419 422 435 437 440 446 448">
         <label/>
@@ -245,7 +256,7 @@
       <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef507" id="507" x="314" y="1053" width="670" height="244" contDef="506" nodes="909" parent="451">
         <label deltaX="4" deltaY="9"/>
       </contRefs>
-      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef511" id="511" x="56" y="71" width="396" height="560" contDef="510" nodes="928 942 946 930 973 980" parent="28">
+      <contRefs xsi:type="ucm.map:ComponentRef" name="ComponentRef511" id="511" x="56" y="71" width="396" height="560" contDef="510" nodes="928 942 946 930 973 980 1043 1045 1057" parent="28">
         <label/>
       </contRefs>
       <connections xsi:type="ucm.map:NodeConnection" source="46" target="88"/>
@@ -350,6 +361,8 @@
       <connections xsi:type="ucm.map:NodeConnection" source="969" target="973"/>
       <connections xsi:type="ucm.map:NodeConnection" source="973" target="980"/>
       <connections xsi:type="ucm.map:NodeConnection" source="980" target="930"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1043" target="1057"/>
+      <connections xsi:type="ucm.map:NodeConnection" source="1057" target="1045"/>
     </specDiagrams>
     <components name="Osoba" id="11" fillColor="255,255,160" filled="true" contRefs="12" kind="Actor"/>
     <components name="Sistem za vo&#x111;enje evidencije o zaposlenima" id="27" fillColor="191,191,191" filled="true" contRefs="28"/>
