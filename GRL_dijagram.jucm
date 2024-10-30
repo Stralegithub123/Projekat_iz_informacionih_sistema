@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Strahinja" created="October 29, 2024, 11:53:25&#x202f;PM CET" modified="October 30, 2024, 2:48:54&#x202f;PM CET" specVersion="15" urnVersion="1.27" nextGlobalID="376">
+<urn:URNspec xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:grl="http:///grl.ecore" xmlns:urn="http:///urn.ecore" name="URNspec" author="Strahinja" created="October 29, 2024, 11:53:25&#x202f;PM CET" modified="October 30, 2024, 2:52:54&#x202f;PM CET" specVersion="17" urnVersion="1.27" nextGlobalID="376">
   <ucmspec>
     <scenarioGroups name="ScenarioGroup5" id="5">
       <scenarios name="ScenarioDef6" id="6"/>
@@ -170,15 +170,15 @@
   </grlspec>
   <urndef>
     <specDiagrams xsi:type="grl:GRLGraph" name="GRLGraph2" id="2">
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef20" id="20" x="336" y="972" contRef="16" def="19">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef20" id="20" x="322" y="972" contRef="16" def="19">
         <metadata name="_width" value="145"/>
         <metadata name="_height" value="57"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef22" id="22" x="518" y="953" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.8" def="21">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef22" id="22" x="498" y="931" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.8" def="21">
         <metadata name="_width" value="150"/>
         <metadata name="_height" value="68"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef24" id="24" x="409" y="1062" contRef="16" pred="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.2" def="23">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef24" id="24" x="395" y="1050" contRef="16" pred="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.1 //@urndef/@specDiagrams.0/@connections.2" def="23">
         <metadata name="_width" value="151"/>
         <metadata name="_height" value="64"/>
       </nodes>
@@ -186,15 +186,15 @@
         <metadata name="_width" value="113"/>
         <metadata name="_height" value="57"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef30" id="30" x="603" y="1059" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.6" def="29">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef30" id="30" x="603" y="1071" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.0 //@urndef/@specDiagrams.0/@connections.6" def="29">
         <metadata name="_width" value="132"/>
         <metadata name="_height" value="72"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef32" id="32" x="568" y="1179" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.7" def="31">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef32" id="32" x="570" y="1181" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.2 //@urndef/@specDiagrams.0/@connections.7" def="31">
         <metadata name="_width" value="138"/>
         <metadata name="_height" value="67"/>
       </nodes>
-      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef34" id="34" x="417" y="1205" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.1" def="33">
+      <nodes xsi:type="grl:IntentionalElementRef" name="IntentionalElementRef34" id="34" x="429" y="1219" contRef="16" succ="//@urndef/@specDiagrams.0/@connections.1" def="33">
         <metadata name="_width" value="121"/>
         <metadata name="_height" value="60"/>
       </nodes>
@@ -484,13 +484,13 @@
         <label/>
       </contRefs>
       <connections xsi:type="grl:LinkRef" source="30" target="24" link="37">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="-20" deltaY="-29"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="34" target="24" link="38">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="27" deltaY="-43"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="32" target="24" link="39">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="24" deltaY="-36"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="48" target="46" link="57"/>
       <connections xsi:type="grl:LinkRef" source="52" target="46" link="58"/>
@@ -498,7 +498,7 @@
       <connections xsi:type="grl:LinkRef" source="30" target="62" link="65"/>
       <connections xsi:type="grl:LinkRef" source="32" target="62" link="66"/>
       <connections xsi:type="grl:LinkRef" source="22" target="69" link="72">
-        <label deltaX="24" deltaY="-117"/>
+        <label deltaX="15" deltaY="-150"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="42" target="75" link="79"/>
       <connections xsi:type="grl:LinkRef" source="46" target="82" link="85">
@@ -508,7 +508,7 @@
         <label deltaX="20" deltaY="-60"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="102" target="92" link="107">
-        <label deltaX="28" deltaY="-59"/>
+        <label deltaX="20" deltaY="-72"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="110" target="114" link="121"/>
       <connections xsi:type="grl:LinkRef" source="114" target="124" link="127">
@@ -522,16 +522,16 @@
         <label deltaX="18" deltaY="-54"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="134" target="140" link="144">
-        <label deltaX="14" deltaY="-53"/>
+        <label deltaX="15" deltaY="-104"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="136" target="140" link="145">
-        <label deltaX="29" deltaY="-46"/>
+        <label deltaX="-19" deltaY="-5"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="134" target="124" link="147">
         <label deltaX="-20" deltaY="-46"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="150" target="92" link="157">
-        <label deltaX="17" deltaY="-33"/>
+        <label deltaX="23" deltaY="-50"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="152" target="92" link="158">
         <label deltaX="-21" deltaY="-143"/>
@@ -542,27 +542,27 @@
       <connections xsi:type="grl:LinkRef" source="164" target="162" link="175"/>
       <connections xsi:type="grl:LinkRef" source="166" target="162" link="176"/>
       <connections xsi:type="grl:LinkRef" source="162" target="88" link="178">
-        <label deltaX="22" deltaY="-41"/>
+        <label deltaX="18" deltaY="-46"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="172" target="181" link="184">
-        <label deltaX="30" deltaY="-53"/>
+        <label deltaX="23" deltaY="-50"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="170" target="181" link="186">
         <label deltaX="-21" deltaY="-55"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="168" target="170" link="187">
-        <label deltaX="-16" deltaY="-52"/>
+        <label deltaX="-13" deltaY="-53"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="168" target="164" link="189">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="23" deltaY="-45"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="192" target="172" link="199"/>
       <connections xsi:type="grl:LinkRef" source="194" target="168" link="200"/>
       <connections xsi:type="grl:LinkRef" source="196" target="164" link="202">
-        <label deltaX="24" deltaY="-41"/>
+        <label deltaX="18" deltaY="-75"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="196" target="166" link="203">
-        <label deltaX="27" deltaY="-28"/>
+        <label deltaX="28" deltaY="-39"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="210" target="206" link="215"/>
       <connections xsi:type="grl:LinkRef" source="212" target="206" link="216"/>
@@ -570,7 +570,7 @@
         <label deltaX="-23" deltaY="-43"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="181" target="88" link="220">
-        <label deltaX="-29" deltaY="-50"/>
+        <label deltaX="-24" deltaY="-54"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="223" target="181" link="226">
         <label deltaX="24" deltaY="-25"/>
@@ -578,7 +578,7 @@
       <connections xsi:type="grl:LinkRef" source="231" target="229" link="238"/>
       <connections xsi:type="grl:LinkRef" source="235" target="229" link="239"/>
       <connections xsi:type="grl:LinkRef" source="233" target="229" link="241">
-        <label deltaX="24" deltaY="-46"/>
+        <label deltaX="19" deltaY="-68"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="82" target="233" link="243"/>
       <connections xsi:type="grl:LinkRef" source="75" target="233" link="244">
@@ -590,19 +590,19 @@
       <connections xsi:type="grl:LinkRef" source="258" target="75" link="262"/>
       <connections xsi:type="grl:LinkRef" source="247" target="233" link="264"/>
       <connections xsi:type="grl:LinkRef" source="277" target="273" link="284">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="26" deltaY="-31"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="273" target="267" link="285">
         <label deltaX="21" deltaY="-54"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="269" target="267" link="287">
-        <label deltaX="27" deltaY="-42"/>
+        <label deltaX="25" deltaY="-49"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="271" target="267" link="288">
         <label deltaX="-21" deltaY="-52"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="279" target="267" link="290">
-        <label deltaX="23" deltaY="-39"/>
+        <label deltaX="15" deltaY="-49"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="293" target="279" link="298"/>
       <connections xsi:type="grl:LinkRef" source="295" target="279" link="299"/>
@@ -610,53 +610,53 @@
         <label deltaX="-19" deltaY="-71"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="251" target="308" link="313">
-        <label deltaX="18" deltaY="-38"/>
+        <label deltaX="17" deltaY="-91"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="251" target="310" link="315">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="25" deltaY="-53"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="324" target="322" link="327">
-        <label deltaX="18" deltaY="-48"/>
+        <label deltaX="21" deltaY="-96"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="322" target="320" link="328">
-        <label deltaX="-16" deltaY="-49"/>
+        <label deltaX="-19" deltaY="-85"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="310" target="320" link="329">
-        <label deltaX="20" deltaY="-62"/>
+        <label deltaX="17" deltaY="-56"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="318" target="320" link="330">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="21" deltaY="-71"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="333" target="62" link="336"/>
       <connections xsi:type="grl:LinkRef" source="333" target="320" link="338">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="21" deltaY="-38"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="69" target="318" link="339">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="17" deltaY="-40"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="342" target="333" link="355">
-        <label deltaX="28" deltaY="-48"/>
+        <label deltaX="26" deltaY="-58"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="344" target="324" link="357">
-        <label deltaX="35" deltaY="-59"/>
+        <label deltaX="26" deltaY="-76"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="346" target="324" link="358">
-        <label deltaX="27" deltaY="-50"/>
+        <label deltaX="26" deltaY="-54"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="350" target="322" link="360">
-        <label deltaX="33" deltaY="-44"/>
+        <label deltaX="25" deltaY="-56"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="352" target="322" link="361">
-        <label deltaX="-32" deltaY="-69"/>
+        <label deltaX="-25" deltaY="-72"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="364" target="324" link="367">
-        <label deltaX="30" deltaY="-53"/>
+        <label deltaX="23" deltaY="-56"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="348" target="364" link="369">
         <label deltaX="30" deltaY="-52"/>
       </connections>
       <connections xsi:type="grl:LinkRef" source="372" target="364" link="375">
-        <label deltaX="30" deltaY="-30"/>
+        <label deltaX="23" deltaY="-32"/>
       </connections>
       <comments description="Podaci o starim zaposlenima bi trebali da se &#x10d;uvaju na posebnom mestu&#xD;&#xA;" x="2213" y="302" width="116" height="112" fillColor="255,255,255"/>
     </specDiagrams>
